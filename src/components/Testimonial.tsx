@@ -39,8 +39,8 @@ export function Testimonial() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          Работа с Wabi была похожа на медитацию. Они поняли, что наш дом должен поддерживать
-          благополучие семьи, а не просто красиво выглядеть. Результат — пространство, которое наконец ощущается как наше.
+          Wabi Studio создали нам сайт, который с первого месяца начал приносить клиентов. Они поняли наш бизнес лучше, чем мы ожидали —
+          дизайн работает как молчаливый продавец.
         </blockquote>
 
         {/* Attribution */}
@@ -49,8 +49,8 @@ export function Testimonial() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          <p className="text-sm tracking-widest uppercase text-primary-foreground/80">Анна и Михаил Петровы</p>
-          <p className="text-sm text-primary-foreground/60 mt-1">Резиденция в Москве</p>
+          <p className="text-sm tracking-widest uppercase text-primary-foreground/80">Сергей Романов</p>
+          <p className="text-sm text-primary-foreground/60 mt-1">Основатель юридической компании</p>
         </div>
       </div>
     </section>

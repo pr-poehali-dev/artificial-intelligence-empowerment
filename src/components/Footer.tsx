@@ -7,7 +7,7 @@ export function Footer() {
           <div className="md:col-span-4">
             <p className="font-serif text-2xl tracking-wide text-foreground mb-4">Wabi</p>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Японский минимализм в сочетании со скандинавским теплом.
+              Веб-дизайн, который работает на ваш бизнес.
             </p>
           </div>
 
@@ -65,7 +65,7 @@ export function Footer() {
           <p className="text-xs text-muted-foreground">
             &copy; {new Date().getFullYear()} Wabi Studio. Все права защищены.
           </p>
-          <p className="text-xs text-muted-foreground">Создано с намерением</p>
+          <p className="text-xs text-muted-foreground">Создано с намерением и точностью</p>
         </div>
       </div>
     </footer>
