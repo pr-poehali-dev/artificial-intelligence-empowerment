@@ -9,7 +9,7 @@ export function Header() {
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <a href="/" className="font-serif text-2xl tracking-wide text-foreground">
-            Wabi Studio
+            Kodo Studio
           </a>
 
           {/* Desktop Navigation */}
@@ -21,16 +21,16 @@ export function Header() {
               Философия
             </a>
             <a
+              href="#portfolio"
+              className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
+            >
+              Портфолио
+            </a>
+            <a
               href="#services"
               className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
             >
               Услуги
-            </a>
-            <a
-              href="#process"
-              className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
-            >
-              Процесс
             </a>
             <a
               href="#contact"
@@ -71,18 +71,18 @@ export function Header() {
               Философия
             </a>
             <a
+              href="#portfolio"
+              onClick={() => setIsMenuOpen(false)}
+              className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Портфолио
+            </a>
+            <a
               href="#services"
               onClick={() => setIsMenuOpen(false)}
               className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
             >
               Услуги
-            </a>
-            <a
-              href="#process"
-              onClick={() => setIsMenuOpen(false)}
-              className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Процесс
             </a>
             <a
               href="#contact"

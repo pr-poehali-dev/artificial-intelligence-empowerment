@@ -5,7 +5,7 @@ export function Footer() {
         <div className="grid md:grid-cols-12 gap-12">
           {/* Logo & Tagline */}
           <div className="md:col-span-4">
-            <p className="font-serif text-2xl tracking-wide text-foreground mb-4">Wabi</p>
+            <p className="font-serif text-2xl tracking-wide text-foreground mb-4">Kodo Studio</p>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Веб-дизайн, который работает на ваш бизнес.
             </p>
@@ -18,11 +18,11 @@ export function Footer() {
               <a href="#philosophy" className="text-sm text-foreground hover:text-sage transition-colors">
                 Философия
               </a>
+              <a href="#portfolio" className="text-sm text-foreground hover:text-sage transition-colors">
+                Портфолио
+              </a>
               <a href="#services" className="text-sm text-foreground hover:text-sage transition-colors">
                 Услуги
-              </a>
-              <a href="#process" className="text-sm text-foreground hover:text-sage transition-colors">
-                Процесс
               </a>
               <a href="#contact" className="text-sm text-foreground hover:text-sage transition-colors">
                 Контакты
@@ -63,7 +63,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} Wabi Studio. Все права защищены.
+            &copy; {new Date().getFullYear()} Kodo Studio. Все права защищены.
           </p>
           <p className="text-xs text-muted-foreground">Создано с намерением и точностью</p>
         </div>

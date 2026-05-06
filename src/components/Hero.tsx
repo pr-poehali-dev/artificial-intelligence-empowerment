@@ -19,7 +19,7 @@ export function Hero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}
         >
-          Студия веб-дизайна
+          Kodo Studio · Веб-дизайн
         </p>
 
         {/* Main Headline */}
